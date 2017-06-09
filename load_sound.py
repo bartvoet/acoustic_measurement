@@ -321,9 +321,9 @@ def writeModisSortedByFrequency(f,results):
 
 def calculateModi():
     results = []
-    length = int(length_text.get())
-    width = int(width_text.get())
-    height = int(height_text.get())
+    length = float(length_text.get())
+    width = float(width_text.get())
+    height = float(height_text.get())
     
     #axiale modus
     results.append(ModiResult(0,0,0,length,width,height))
